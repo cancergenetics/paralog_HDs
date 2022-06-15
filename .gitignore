@@ -1,0 +1,32 @@
+# Created by https://www.gitignore.io/api/jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=jupyternotebooks
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+# git rm -r .ipynb_checkpoints/
+
+# Do not store figures
+figures/
+*.pdf
+*.png
+*.svg
+
+# Do not store web page data
+webpage/data/
+*.zip
+
+# Do not store data files
+local_data
+
+.DS_Store
+
+__pycache__/
